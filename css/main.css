@@ -1,0 +1,135 @@
+s.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+#livechat-compact-container {
+  height: 153px;
+  position: fixed;
+  right: 0;
+  top: 200px;
+  top: 30vh;
+  z-index: 10000;
+}
+.btn-chat a {
+  font-family: arial;
+  color: #fff;
+  text-decoration: none;
+  background: #1798F7;
+  padding: 24px 20px 8px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 0 0 1px #03b2ff inset;
+  border: 1px solid #144866;
+  border-radius: 2px;
+  -ms-transform: rotate(90deg) translate(0, -20px);
+  -webkit-transform: rotate(90deg) translate(0, -20px);
+  transform: rotate(90deg) translate(0, -20px);
+  position: relative;
+  right: -27px;
+  transition: background 0.2s, right 0.2s;
+}
+.btn-chat a:hover {
+  background: #47B6F5;
+  right: -20px;
+  transition: background 0.2s, right 0.2s;
+}
+
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-image: url("../images/pillbannercut.png");
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.mokergoed {
+  background-image: url("../images/title_banner.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mokergoed .container {
+  position: relative;
+  top:100px;
+}
+
+.mokergoed h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.mokergoed p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.website {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.website h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.website p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
